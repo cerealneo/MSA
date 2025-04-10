@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Oauth2 인증 실습
+
+<form>
+    <input type="text" name="uid"><br>
+    <input type="password" name="pass"><br>
+    <input type="submit" value="로그인"><br>
+</form>
+
+<a th:href="@{/oauth2/authorization/google}">google 로그인</a>
+<a th:href="@{/oauth2/authorization/kakao}">kakao 로그인</a>
+</body>
+</html>
